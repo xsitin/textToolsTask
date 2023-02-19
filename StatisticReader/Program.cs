@@ -1,4 +1,5 @@
 ﻿using DataAccess.helpers;
+using Microsoft.EntityFrameworkCore;
 
 string connectionString;
 try
@@ -38,7 +39,8 @@ Console.WriteLine("Enter empty string for exit");
 var prefix = Console.ReadLine();
 while (!string.IsNullOrWhiteSpace(prefix))
 {
-    var words = context.Words.Where(x => x.word.StartsWith(prefix))
+    var words = context.Words.AsNoTracking()
+        .Where(x => x.word.StartsWith(prefix))
         .OrderByDescending(x => x.count)
         .ThenBy(x => x.word)
         .Take(5).ToArray();

@@ -102,7 +102,7 @@ public static class Application
 
     private static Dictionary<string, int> GetStatistic(string pathToFile)
     {
-        var text = File.ReadAllLines(pathToFile, Encoding.UTF8);
+        var text = File.ReadLines(pathToFile, Encoding.UTF8);
         IWordParser parser = new WordParser();
         var words = parser.GetWordsFromText(text);
         IWordStatisticCollector statisticCollector = new WordStatisticCollector();

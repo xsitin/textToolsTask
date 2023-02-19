@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.SqlServer.Server;
 
 namespace DataAccess.models;
 
@@ -16,8 +15,6 @@ public class Word
         this.count = count;
     }
 
-    [MaxLength(20)]
-    [MinLength(3)] 
-    public string word { get; set; }
+    [MaxLength(20)] [MinLength(3)] public string word { get; set; }
     public int count { get; set; }
 }
