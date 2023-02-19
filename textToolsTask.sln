@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextStatisticCollector", "TextStatisticCollector\TextStatisticCollector.csproj", "{4CE1D052-D1DF-4368-908E-2CC639AF3A87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{A5CBB626-663C-4899-A352-BF64EA3F4F3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatisticReader", "StatisticReader\StatisticReader.csproj", "{6716D6F5-F874-4C92-87A1-E26C6AA97321}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE1D052-D1DF-4368-908E-2CC639AF3A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE1D052-D1DF-4368-908E-2CC639AF3A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE1D052-D1DF-4368-908E-2CC639AF3A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE1D052-D1DF-4368-908E-2CC639AF3A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5CBB626-663C-4899-A352-BF64EA3F4F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5CBB626-663C-4899-A352-BF64EA3F4F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5CBB626-663C-4899-A352-BF64EA3F4F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5CBB626-663C-4899-A352-BF64EA3F4F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6716D6F5-F874-4C92-87A1-E26C6AA97321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6716D6F5-F874-4C92-87A1-E26C6AA97321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6716D6F5-F874-4C92-87A1-E26C6AA97321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6716D6F5-F874-4C92-87A1-E26C6AA97321}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
