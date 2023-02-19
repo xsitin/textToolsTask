@@ -15,10 +15,10 @@ public static class AccessHelper
         return configuration.GetConnectionString("MsSqlDb");
     }
 
-    public static ApplicationContext GetContext(string connectionString1)
+    public static ApplicationContext GetContext(string connectionString)
     {
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationContext>();
-        optionsBuilder.UseSqlServer(connectionString1);
+        optionsBuilder.UseSqlServer(connectionString);
         return new ApplicationContext(optionsBuilder.Options);
     }
 }
